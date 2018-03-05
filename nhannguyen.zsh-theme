@@ -29,8 +29,6 @@ vi_mode_prompt_info () {
   if [[ ${KEYMAP} = 'vicmd' ]]
   then
     echo $ZSH_THEME_VI_MODE_COMMAND
-  else
-    echo $ZSH_THEME_VI_MODE_INSERT
   fi
 }
 
